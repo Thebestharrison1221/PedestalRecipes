@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PedestalRecipes:jar">
+    <output-path>$USER_HOME$/OneDrive/Desktop/test/plugins</output-path>
+    <root id="archive" name="PedestalRecipes.jar">
+      <element id="module-output" name="PedestalRecipes" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+    </root>
+  </artifact>
+</component>

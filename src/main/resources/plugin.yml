@@ -1,0 +1,16 @@
+name: pedestalRecipes
+version: '1'
+main: org.TBCreates.pedestalRecipes.pedestalRecipes
+api-version: '1.21'
+prefix: [ PedestalRecipes ]
+load: STARTUP
+authors: [ thebestharrison ]
+description: one of thebestharrison's plugins :)
+website: https://discord.gg/zyvDgFQk
+depend:
+  - DecentHolograms
+commands:
+  pedestal:
+    description: Pedestal command root
+    usage: /pedestal
+    permission: pedestal.create
